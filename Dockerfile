@@ -20,7 +20,7 @@ RUN apt-get update && \
        mopidy-local \
        mopidy-local-sqlite \
        mopidy-mpd \
-       mopidy-scrobbler \
+       mopidy-scrobbler
 
 RUN python3 -m pip install Mopidy-YTMusic
 RUN python3 -m pip install Mopidy-Iris
