@@ -20,13 +20,9 @@ RUN apt-get update && \
        mopidy-local \
        mopidy-local-sqlite \
        mopidy-mpd \
-       mopidy-podcast \
-       mopidy-podcast-itunes \
        mopidy-scrobbler \
-       mopidy-somafm \
-       mopidy-soundcloud \
-       mopidy-spotify \
-       mopidy-tunein
+       mopidy-ytmusic \
+       mopidy-iris
 RUN mkdir -p /data/music
 EXPOSE 6680 6600
 CMD ["/usr/bin/mopidy"]
