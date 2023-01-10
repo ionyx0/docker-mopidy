@@ -8,17 +8,10 @@ Plugins
 
 - Mopidy-Local
 - Mopidy-Mpd
-- Mopidy-Podcast
-- Mopidy-Podcast-Itunes
-- Mopidy-ALSAMixer
 - Mopidy-Scrobbler
-- Mopidy-Spotify
-- Mopidy-Somafm
-- Mopidy-Soundcloud
-- Mopidy-Tunein
+- Mopidy-YTMusic
+- Mopidy-Iris
 
-
-To be extended
 
 RUN
 ===
