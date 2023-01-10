@@ -21,8 +21,9 @@ RUN apt-get update && \
        mopidy-local-sqlite \
        mopidy-mpd \
        mopidy-scrobbler \
-       mopidy-ytmusic \
-       mopidy-iris
+
+RUN python3 -m pip install Mopidy-YTMusic
+RUN python3 -m pip install Mopidy-Iris
 RUN mkdir -p /data/music
 EXPOSE 6680 6600
 CMD ["/usr/bin/mopidy"]
